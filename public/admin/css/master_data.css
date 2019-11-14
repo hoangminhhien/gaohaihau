@@ -1,0 +1,17 @@
+.rows{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+.info-box-text{
+  font-size:20px;
+  text-align: center;
+  line-height:80px;
+  color: white;
+}
+.info-box-text:hover{
+  color: black;
+}
+.info-box-text:active{
+  color:yellow;
+}

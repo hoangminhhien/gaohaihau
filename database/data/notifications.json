@@ -1,0 +1,29 @@
+[
+    {
+        "type": 1,
+        "from_id": 0,
+        "to_id": 1,
+        "title": "Đơn hàng mới",
+        "object_type": "orders",
+        "content": "Khách hàng vừa đặt đơn hàng 1 vào lúc 14:00 22/03/2019",
+        "data": "{\"id\":1,\"status\":1,\"date\":\"2019-03-22 14:00:00\"}"
+    },
+    {
+        "type": 1,
+        "from_id": 0,
+        "to_id": 1,
+        "title": "Xác nhận đơn hàng",
+        "object_type": "orders",
+        "content": "Admin 1 đã xác nhận đơn hàng vào lúc 16:00 22/03/2019",
+        "data": "{\"id\":1,\"status\":2,\"date\":\"2019-03-22 16:00:00\"}"
+    },
+    {
+        "type": 2,
+        "from_id": 0,
+        "to_id": 1,
+        "title": "Huỷ đơn hàng",
+        "object_type": "orders",
+        "content": "Admin 1 đã huỷ đơn hàng 2 vào lúc 17:00 22/03/2019",
+        "data": "{\"id\":2,\"status\":3,\"date\":\"2019-03-22 17:00:00\"}"
+    }
+]

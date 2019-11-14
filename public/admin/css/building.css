@@ -1,0 +1,27 @@
+.rooms button{
+    background-color: green;
+}
+.label-room{
+    font-size: 100%;
+    margin-left: 5px;
+    line-height: 200%;
+}
+tbody tr td{
+    line-height: 30px
+}
+.select2-selection__choice{
+    color: black !important;
+}
+#delete-button{
+    background-color: red
+}
+#delete-button:hover #delete-button{
+    background-color: red
+}
+.rooms{
+    background-color: green;
+    color: white
+}
+.color{
+    color: orange
+}

@@ -1,0 +1,56 @@
+version: '2'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: gaohaihaudb
+      MYSQL_USER: gaohaidau
+      MYSQL_PASSWORD: gaohaihau@2019!
+    networks:
+      gaohaihau_net:
+        ipv4_address: 172.20.0.10
+    ports:
+      - "3306:3306"
+  redis:
+    image: redis
+    restart: always
+    container_name: cache
+    ports:
+      - "6379:6379"
+    networks:
+      gaohaihau_net:
+        ipv4_address: 172.20.0.12
+  web:
+    build:
+      context: .
+      args:
+        INSTALL_SSH: 'true'
+        INSTALL_APACHE_PHP: 'true'
+        INSTALL_XDEBUG: 'false'
+    privileged: true
+    volumes:
+    - ./:/var/www/html/current
+    networks:
+      gaohaihau_net:
+        ipv4_address: 172.20.0.11
+    ports:
+       - "443:443"
+       - "2222:22"
+       - "8080:8080"
+       - "80:80"
+    restart: always
+    environment:
+      VIRTUAL_HOST: rice.orgranic.store
+      LETSENCRYPT_HOST: rice.orgranic.store
+      LETSENCRYPT_EMAIL: toi.xtran@gmail.com
+
+networks:
+  gaohaihau_net:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.20.0.0/24
+        gateway: 172.20.0.1

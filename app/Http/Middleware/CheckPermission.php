@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Support\Facades\Auth;
+use PermissionHelper;
+
+class CheckPermission
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+        $currentRouteName = $request->route()->getName();
+        $has_permission = PermissionHelper::hasPermission($currentRouteName);
+
+        if(!$has_permission) {
+            return abort(403);
+        }
+
+        return $next($request);
+    }
+}

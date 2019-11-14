@@ -1,0 +1,28 @@
+.crm_button {
+    width: 250px;
+}
+.crm_button button{
+    min-width: 100px
+}
+.crm_button .order_detail{
+    margin-top: 5px
+}
+.handle_or_cancel span{
+    width: 100%;
+}
+.new_order {
+    margin-top: 5px;
+}
+.due_date{
+}
+.space-fix {
+    margin-bottom: 10px;
+}
+
+.fix-detail {
+  margin-top: 5px;
+}
+
+.new_order a{
+    width: 100px;
+}

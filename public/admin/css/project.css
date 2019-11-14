@@ -1,0 +1,14 @@
+.col-xs-12{
+	margin-top: 20px
+}
+#error{
+	margin-top: 10px
+}
+#paginate{
+	text-align: center;
+}
+
+.button-create {
+  padding-top: 10px;
+  padding-left: 25px;
+}

@@ -1,0 +1,161 @@
+.product{
+    padding-top: 30px;
+}
+.product:nth-child(3n+1) {
+    clear: left;
+}
+#row{
+    padding-left:5px;
+    padding-right:5px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #d0cbcb;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0px #e8e8e8;
+}
+.images {
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+}
+
+/* If you want text inside of the container */
+.image1{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.title{
+    margin-left: 10px;
+    padding-top: 50px;
+    min-height: 190px;
+}
+#paginate{
+    clear: both;
+    text-align: center;
+}
+.table_custom tbody tr td{
+    border: 1px solid #101010;
+    text-align: center;
+}
+
+#center_action {
+    
+    display: none;
+}
+#center_action button {
+    margin: 10px;
+    background-color: unset;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+#center_action i{
+    font-size: 30px;
+}
+#action{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+    background-color: #000;
+}
+
+.product-item-price {
+    color: #FF0000;
+    padding: 3px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-item-name {
+    text-align: center;
+    font-size: 16px;
+    color: #12b14d;
+    text-transform: capitalize;
+    padding: 3px 0;
+}
+
+.style-button {
+  margin-left: 10px;
+}
+
+#row:hover #action, #row:hover #center_action{
+    display: block;
+}
+#center_action{
+    top: 47%;
+    left: 30%;
+    position: absolute;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.table-body{
+  padding: 10px;
+}

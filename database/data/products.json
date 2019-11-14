@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Gạo đặc sản bắc thơm số 7",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "1",
+        "capacity": "10",
+        "price": "170000",
+        "image_url": "",
+        "short_desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "quantity": "10",
+        "is_public": "1"
+    },
+    {
+        "name": "Gạo đặc sản bắc thơm số 7",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "1",
+        "capacity": "5",
+        "price": "85000",
+        "image_url": "",
+        "short_desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "quantity": "10",
+        "is_public": "1"
+    },
+    {
+        "name": "Gạo tám xoan bao tử",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "1",
+        "capacity": "1",
+        "price": "85000",
+        "image_url": "",
+        "short_desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "quantity": "10",
+        "is_public": "1"
+    },
+    {
+        "name": "Gạo tám xoan bao tử",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "1",
+        "capacity": "5",
+        "price": "425000",
+        "image_url": "",
+        "short_desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "quantity": "10",
+        "is_public": "1"
+    },
+    {
+        "name": "Gạo nếp bắc truyền thống",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "1",
+        "capacity": "10",
+        "price": "400000",
+        "image_url": "",
+        "short_desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "desc": "Gạo đặc sản, gạo hữu cơ, đảm bảo ATVSTP",
+        "quantity": "10",
+        "is_public": "1"
+    },
+    {
+        "name": "Thùng gạo",
+        "made_from": "HTX Toàn Thắng, Hải Toàn, Hải Hậu",
+        "unit": "2",
+        "capacity": "10",
+        "price": "0",
+        "image_url": "",
+        "short_desc": "Thùng gạo cao cấp, bền bỉ với thời gian.",
+        "desc": "Thùng gạo cao cấp, bền bỉ với thời gian.",
+        "quantity": "10",
+        "is_public": "0",
+        "gift_code": "NEWCUS"
+    }
+]

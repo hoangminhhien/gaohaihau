@@ -1,0 +1,138 @@
+.ready_delivery p {
+    float: left;
+    font-size: 18px;
+    margin: 0
+}
+.ready_delivery button{
+    float: right;
+}
+.modal-dialog{
+    width: 60%;
+    margin-top: 100px;
+}
+.modal-content label{
+    text-align: left;
+}
+.modal-content .form-control[disabled]{
+    pointer-events: none;
+}
+.select2{
+    width:100%!important;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    /* border: 1px solid #aaa; */
+    border-radius: 0px;
+    height: 34px;
+    border-color: #d2d6de;
+
+}
+.show_sp{
+    height: 34px;
+    border: 1px solid #d2d6de;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #eee !important;
+}
+.show_sp span {
+    cursor: pointer;
+}
+.error-message {
+    color: #dd4b39;
+}
+.phone{
+    position: relative;
+}
+.choose_info {
+    position: absolute;
+    top:34px;
+    z-index:1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.choose_info_true {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    z-index:1000;
+}
+.choose_info .choose_info_true:hover:not(.header) {
+    background-color: #eee;
+}
+
+.list_order ul{
+    padding-left: 15px;
+    list-style-type: circle;
+}
+
+.list_order button{
+    width: 100px;
+}
+.modal-body{
+    padding-bottom: 0px;
+}
+.list_sl{
+    text-align: right;
+}
+.confirm-order{
+    margin-bottom: 10px;
+}
+.selected {
+    background: #ccc;
+}
+
+/* Define column class*/
+.no-column {
+    width: 10px;
+}
+.code-column {
+    width: 120px
+}
+.name-customer-column {
+    width: 180px
+}
+.phone-column {
+    width: 170px;
+}
+.quantity-column {
+    width: 420px;
+}
+.total-price-column {
+    width: 160px;
+}
+.time-column {
+    width: 270px
+}
+.action-column {
+}
+
+.warn-late-delivery {
+    border-radius: 0;
+}
+
+.delivered-delete {
+    margin-bottom: 10px;
+}
+
+.width-table-name {
+    width: 20%
+}
+
+.show-order-detail:hover {
+    background: #f0f0f0 !important;
+    cursor: pointer;
+}
+.decoration-hover:hover {
+  text-decoration: underline;
+}

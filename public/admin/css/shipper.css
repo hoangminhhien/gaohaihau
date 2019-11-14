@@ -1,0 +1,345 @@
+body, html {
+    color: #1D2129;
+    height: 100% !important;
+    max-height: 100%;
+    background: #f2f2f2;
+}
+
+.fix-navbar {
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 1px 3px #c1c1c1;
+}
+
+.fix-navbar > li {
+    width: 50% !important;
+    color :#555555
+}
+
+.fix-navbar li a {
+    color: #919191;
+    background: #FFF;
+    margin: 0 !important;
+}
+
+.fix-navbar.nav-tabs.control-sidebar-tabs>li.active>a,
+.nav-tabs.control-sidebar-tabs>li.active>a:hover {
+    background: #FFF;
+    color: #4498c8;
+    border: none;
+    border-bottom: 2px solid #4498c8
+}
+
+.fix-navbar.nav-tabs.control-sidebar-tabs > li > a,
+.nav-tabs.control-sidebar-tabs > li > a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+.header {
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    font-size: 19px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.header .navbar-custom-menu {
+    height: 100%
+}
+
+.header-title {
+    text-align: center;
+    height: 100%;
+}
+
+.notification-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.notification-icon>li>a,
+.notification-icon>li>a:hover,
+.notification-icon>li>a:active,
+.notification-icon>li>a:focus {
+    color: #FFF !important;
+}
+
+.notification-icon>li.open>a:hover,
+.notification-icon>li.open>a:focus {
+    background: #3a80a9 !important;
+}
+
+.notification-icon>li>a:hover,
+.notification-icon>li>a:focus {
+    background: #4498c8 !important
+}
+
+.notification-unread-count {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    padding: 0.2em 0.5em 0.3em;
+}
+
+.notification-icon .dropdown-menu{
+    z-index: 100;
+    right: 0 !important;
+}
+
+.notification-icon .notification-dropdown {
+    min-width: 60px;
+    text-align: center;
+}
+
+.notification-icon-logout {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.notification-icon-logout>li>a,
+.notification-icon-logout>li>a:hover,
+.notification-icon-logout>li>a:active,
+.notification-icon-logout>li>a:focus {
+    color: #FFF !important;
+}
+
+.notification-icon-logout>li.open>a:hover,
+.notification-icon-logout>li.open>a:focus {
+    background: #3a80a9 !important;
+}
+
+.notification-icon-logout>li>a:hover,
+.notification-icon-logout>li>a:focus {
+    background: #4498c8 !important
+}
+
+.notification-unread-count {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    padding: 0.2em 0.5em 0.3em;
+}
+
+.notification-icon-logout .dropdown-menu{
+    z-index: 100;
+    left: 0 !important;
+}
+
+.notification-icon-logout .notification-dropdown {
+    min-width: 60px;
+    text-align: center;
+}
+
+.center_dropdown { 
+    line-height: 36px;
+    vertical-align: middle;    
+}
+
+.size_dropdown {
+    font-size: 18px !important;
+    color: red;
+}
+
+.color-red a, .color-red {
+    color: red !important;
+}
+
+.common-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #f2f2f2;
+    padding-top: 95px;
+}
+
+.fix-nav-bar {
+    top: 50px
+}
+
+.history-tab {
+    background: #f9f9f9
+}
+
+#delivery-tab {
+    margin-top: 10px;
+}
+
+.common-stock {
+    margin-top: 15px;
+}
+
+.amount-stock {
+    margin-right: 1px;
+    margin-left: 1px;
+    background: #fff;
+    list-style-type: circle;
+    list-style-position: inside;
+    box-shadow: 0 0 1px 0px #4498c8;
+}
+
+.stock {
+    padding: 5px;
+    margin: 5px;
+}
+
+.fix-border-radius-0 {
+    position: relative;
+    border-radius: 0;
+    font-weight: normal;
+}
+
+.fix-icon-center {
+    float: right;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10;
+    right: 10px
+}
+
+.fix-phone {
+    color: #fff;
+    float: right;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4498c8;
+}
+
+.fix-select-float1 {
+    padding: 10px;
+    float: left;
+    width: calc(100% - 100px);
+}
+
+.fix-select-float2 {
+    padding: 10px;
+    width: 100px;
+    float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+.add-button-delivery {
+    margin: 0;
+}
+
+.theme-bg {
+    background-color: #ffffff;
+}
+
+.theme-bg-i {
+    background-color: #4498c8 !important;
+    color: #FFF;
+}
+
+.box-border-content {
+    box-shadow: none
+}
+
+.collapse.shipper_detail {
+    background: #FFF;
+}
+
+.acMenu .external-event {
+    margin: 0;
+    cursor: pointer;
+}
+
+.acMenu .external-event:hover {
+    box-shadow: none;
+}
+
+.acMenu {
+    margin-bottom: 10px;
+    /*border: 1px solid #e7e7e7;*/
+    /*border-top: 1px solid #4498c8;*/
+}
+
+.amount-stock-title {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #4498c8;
+    font-size: 16px
+}
+
+.quantity-stock {
+    color: red;
+    font-size: 16px
+}
+
+.open-title {
+    box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.2) !important;
+}
+
+.customer-name {
+    color: #4498c8;
+    font-size: 15px
+}
+
+/* delivery modal css */
+.delivery-modal .modal-content {
+    border-radius: 5px;
+}
+
+.delivery-modal .modal-body {
+    padding-top: 5px;
+}
+
+.close-modal {
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.delivery-modal-capture-box {
+    /*height: 100px;*/
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+}
+
+.open-camera-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.remove-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #dd4b39;
+    padding: 10px;
+    color: #FFF;
+    z-index: 10000;
+    border-radius: 5px;
+}
+
+.price-fix {
+    color:red;
+    font-size: 15px;
+}
+
+.price-fix1 {
+    color:red;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+#history-tab {
+    margin-top: 10px;
+}
+
+.date_delivery {
+    padding-left: 8px;
+}

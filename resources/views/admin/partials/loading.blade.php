@@ -1,0 +1,3 @@
+<loading>
+  <div></div>
+</loading>

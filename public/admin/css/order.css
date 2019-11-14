@@ -1,0 +1,23 @@
+.total-amount {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.total-amount #total_amount {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.total-amount #total_amount_label {
+    padding-top: 3px;
+    height: 30px;
+}
+
+.control-label {
+    font-weight: normal;
+}
+
+.warn-late-delivery {
+    border-radius: 0;
+}

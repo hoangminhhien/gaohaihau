@@ -1,0 +1,39 @@
+[
+    {
+        "email": "shipper1@gmail.com",
+        "password": "123123",
+        "role": "1",
+        "name": "Shipper 1"
+    },
+    {
+        "email": "shipper2@gmail.com",
+        "password": "123123",
+        "role": "1",
+        "name": "Shipper 2"
+    },
+    {
+        "email": "admin1@gmail.com",
+        "password": "123123",
+        "role": "2",
+        "name": "Admin 1"
+    },
+    {
+        "email": "admin2@gmail.com",
+        "password": "123123",
+        "role": "2",
+        "name": "Admin 2"
+    },
+    {
+        "email": "system_admin_1@gmail.com",
+        "password": "123123",
+        "role": "9",
+        "name": "System Admin 1"
+    },
+    {
+        "email": "system_admin_2@gmail.com",
+        "password": "123123",
+        "role": "9",
+        "name": "System Admin 2"
+    }
+
+]
